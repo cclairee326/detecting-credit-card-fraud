@@ -9,7 +9,7 @@ Credit card fraud is a widespread, ongoing issue, where millions of people's cre
 ## Data Observations
 To analyze this data, I created tables and graphs using Seaborn and MatPlotLib to:
 - Organize by agency (to look at most popular agencies)
-- Organize by vendor (more specifically, single-occurance vendors)
+- Organize by vendor (more specifically, single-occurrance vendors)
 - Look at a concentrated study in casinos (since a lot of credit card fraud happens at casinos)
 
 ## Feature Engineering
