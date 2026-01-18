@@ -25,10 +25,16 @@ To analyze this data, I created tables and graphs using Seaborn and MatPlotLib t
 ## Feature Engineering
 I then created several features that could be implemented in order to flag potential cases of fraud. These features are primarily focused on:
 - Flagging any unusually high spending
-- Visualizing outliers and labeling their merchant category codes and vendor
+- Visualizing outliers and labeling their merchant category codes and vendor (graph below)
+  
+  ![Alt text](outliers_with_mcc_vendor.png)
+  
 - Showing the total amount of money each cardholder spends at any vendor and how many transactions occured at each
 - Finding the mean, standard deviation, and quartiles for each cardholder's transaction spending to estimate their overall spending habits
-- Finding the spending outliers for each cardholder to flag any potential anomalies
+- Finding the spending outliers for each cardholder to flag any potential anomalies (graph below)
+
+  ![Alt text](cardholder_spending_outliers.png)
+  
 - Showing the most frequented vendors of each cardholder and finding any new vendor that they purchase from
 - Showing how many times a cardholder spent at a new vendor and how much they spent
 
