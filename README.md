@@ -9,8 +9,18 @@ Credit card fraud is a widespread, ongoing issue, where millions of people's cre
 ## Data Observations
 To analyze this data, I created tables and graphs using Seaborn and MatPlotLib to:
 - Organize by agency (to look at most popular agencies)
+
+  ![Alt text](agencies_barplots.png)
+  
 - Organize by vendor (more specifically, single-occurrance vendors)
+
+  ![Alt text](vendors_by_transaction.png)
+  
+  ![Alt text](single-occurance_vendors.png)
+  
 - Look at a concentrated study in casinos (since a lot of credit card fraud happens at casinos)
+
+  ![Alt text](casino_transactions.png)
 
 ## Feature Engineering
 I then created several features that could be implemented in order to flag potential cases of fraud. These features are primarily focused on:
