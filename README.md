@@ -44,3 +44,6 @@ Python
 - Numpy
 - MatPlotLib
 - Seaborn
+
+## Note
+This is still an ongoing project, so more features may be added.
