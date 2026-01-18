@@ -29,7 +29,7 @@ I then created several features that could be implemented in order to flag poten
   
   ![Alt text](outliers_with_mcc_vendor.png)
   
-- Showing the total amount of money each cardholder spends at any vendor and how many transactions occured at each
+- Showing the total amount of money each cardholder spends at any vendor and how many transactions occurred at each
 - Finding the mean, standard deviation, and quartiles for each cardholder's transaction spending to estimate their overall spending habits
 - Finding the spending outliers for each cardholder to flag any potential anomalies (graph below)
 
